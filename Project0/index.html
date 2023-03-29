@@ -4,11 +4,39 @@
         <title>Search</title>
         <style>
             h1{
-                color:blue;
+                font-family: Verdana;
+                font-size: 100px;
+                font-weight: bold;
+                color: #484646;
+                text-align: center;
+                text-shadow: 10px;
+            }
+
+            form{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                
+                
+            }
+
+            input{
+                text-align: center;
+                font-size: 60px;
+                border-radius: 50px;
+                display: block;
+                padding-left: 10px;
+                padding-right: 10px;
+                
+            }
+
+            input:hover{
+                background-color: gray;
             }
         </style>
     </head>
     <body>
+        <h1>Browser</h1>
         <form action="https://www.google.com/search">
             <input type="text" name="q">
             <input type="submit" value="Google Search">
